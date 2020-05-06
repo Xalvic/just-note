@@ -1,0 +1,185 @@
+@media only screen and (max-width: 1400px) {
+  .HomeView {
+    width: 800px;
+    margin-top: 20px;
+  }
+  .AddNotes {
+    width: 500px;
+    .Button {
+      font-size: 14px;
+    }
+  }
+  .NoteLists {
+    width: 500px;
+    .list-content {
+      font-size: 15px;
+    }
+  }
+  .popup {
+    width: 50%;
+  }
+}
+@media only screen and (max-width: 1000px) {
+  .HomeView {
+    width: 700px;
+    margin-top: 20px;
+    .note-contain {
+      margin-top: 30px;
+    }
+  }
+  .AddNotes {
+    width: 550px;
+    .Button {
+      font-size: 14px;
+    }
+  }
+  .NoteLists {
+    width: 550px;
+    .list-content {
+      font-size: 15px;
+    }
+  }
+  .popup {
+    width: 60%;
+    height: 500px;
+  }
+}
+
+@media only screen and (max-width: 800px) {
+  .HomeView {
+    width: 650px;
+    margin-top: 10px;
+  }
+  .AddNotes {
+    width: 520px;
+  }
+  .NoteLists {
+    width: 520px;
+  }
+  .Navbar {
+    li {
+      margin: 0px 40px;
+    }
+  }
+  .Signup {
+    height: 520px;
+    width: 370px;
+  }
+  .Login {
+    height: 520px;
+    width: 370px;
+  }
+  .popup {
+    width: 70%;
+    height: 500px;
+  }
+}
+@media only screen and (max-width: 650px) {
+  .HomeView {
+    width: 610px;
+  }
+  .AddNotes {
+    width: 480px;
+  }
+  .NoteLists {
+    width: 480px;
+  }
+}
+@media only screen and (max-width: 600px) {
+  .HomeView {
+    width: 520px;
+  }
+  .AddNotes {
+    width: 450px;
+  }
+  .NoteLists {
+    width: 450px;
+    .list-item {
+      .list-content {
+        font-size: 13px;
+      }
+      .list-title {
+        width: 200px;
+      }
+    }
+  }
+  .Navbar {
+    li {
+      margin: 0px 30px;
+    }
+  }
+  .Signup {
+    height: 470px;
+    width: 320px;
+  }
+  .Login {
+    height: 470px;
+    width: 320px;
+  }
+}
+@media only screen and (max-width: 450px) {
+  .HomeView {
+    width: 400px;
+    padding: 10px;
+  }
+  .AddNotes {
+    width: 350px;
+  }
+  .NoteLists {
+    width: 350px;
+    padding: 10px;
+    .list-item {
+      .list-title {
+        width: 200px;
+      }
+    }
+  }
+  .popup {
+    width: 95%;
+    height: 500px;
+  }
+}
+@media only screen and (max-width: 400px) {
+  .HomeView {
+    width: 380px;
+    padding: 10px;
+  }
+  .AddNotes {
+    width: 320px;
+  }
+  .NoteLists {
+    width: 320px;
+    padding: 10px;
+  }
+  .Navbar {
+    li {
+      margin: 0px 10px;
+    }
+  }
+  .Signup {
+    height: 420px;
+    width: 280px;
+  }
+  .Login {
+    height: 420px;
+    width: 280px;
+  }
+}
+@media only screen and (max-width: 350px) {
+  .HomeView {
+    width: 320px;
+    padding: 0px;
+  }
+  .AddNotes {
+    width: 270px;
+  }
+  .NoteLists {
+    width: 270px;
+    padding: 10px;
+    .list-item {
+      .list-title {
+        width: 130px;
+      }
+    }
+  }
+}
